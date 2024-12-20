@@ -126,7 +126,13 @@ parP.id = "total"
 const botonP = document.createElement("button");
 botonP.innerText = "Finalizar compra";
 botonP.id = "checkout";
-botonP.addEventListener("click", () => alert(`Tu compra fue realizada con ÉXITO`));
+botonP.addEventListener("click", () => {
+    Swal.fire({
+    title: "Excelente",
+    text: "Tu compra fue realizada con Éxito",
+    icon: "success",
+    });
+});
 
 otroDivisor.appendChild(spamP);
 otroDivisor.appendChild(hache);
