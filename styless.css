@@ -1,0 +1,163 @@
+*{
+margin: 0%;
+}
+
+
+#logo{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(130, 46, 46);
+}
+
+header nav img {
+    height: 45px;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+#titulo{
+    font-size: xx-large;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: rgba(165, 147, 147, 0.837);
+}
+
+#carritocompra{
+    background-color: rgb(17, 26, 189);
+    border-radius: 100%;
+    font-size: 20px;
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 2;
+    text-align: center;
+    color: black;
+}
+
+#fotocarro:hover{
+    transform: scale(1.2);
+}
+
+#main{
+    margin: 10px 5px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin: 20px;
+}
+
+.cartadiseno{
+    max-width: 450px;
+    height: 350px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(147, 62, 41);
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+
+h3{
+    margin: 10px;
+}
+
+h4{
+    margin: 10px;
+}
+
+.imagendiseño{
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10%;
+    aspect-ratio: 1;
+    transition: all .5s;
+}
+
+.imagendiseño:hover{
+    transform: scale(1.2);
+}
+
+.elemento-usado img:hover{
+    transform: scale(1.2);
+}
+
+button{
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: rgb(7, 7, 7) ;
+    transform: scale(1.5);
+    border-radius: 10px;
+}
+
+#containerdos{
+    
+    background-color: rgb(147, 77, 62);
+
+}
+
+.contenidocarro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px;
+    row-gap: 20px ;
+    height: 150px;
+}
+
+.cerrarcarro{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+footer{
+    background-color: rgb(101, 31, 31);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{ 
+
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+footer a img:hover{
+    transform: scale(1.5);
+}
+
+/* .container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+} */
